@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.7.1
     environment:
       REPO: michaelvl/rke
-      RKE_VERSION: "v0.3.2"
+      RKE_VERSION: "v1.0.0"
     steps:
       - checkout
       - setup_remote_docker
